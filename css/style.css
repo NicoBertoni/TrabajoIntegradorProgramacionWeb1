@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Estilo de header */
+.header {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Estilo de la barra de navegacion */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ /*Cambio de color cuando el mouse esta por encima*/
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Con el 50%, hay 2 columnas */
+.column {
+  float: left;
+  width: 50%;
+  padding: 15px;
+}
+.footer {
+  background-color: #c2bfbf;
+  text-align: center;
+  padding: 10px;
+}
+
+
+
