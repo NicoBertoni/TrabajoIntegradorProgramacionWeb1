@@ -4,7 +4,9 @@
 
 body {
   margin: 0;
-
+  background-image: url('.../imagenes/Otros/Cine_Fondo.png');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .container {
@@ -17,9 +19,7 @@ body {
 
 /* Estilo de header */
 .header {
-  background-image: url('imagenes\Logos y Fondo\Cine Fondo.png');
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color: #f1f1f1;
   padding: 20px;
   text-align: center;
 }
