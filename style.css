@@ -32,7 +32,17 @@
   .row {
     display: flex;
   }
-  
+  .container{
+    font-size: large;
+    text-align: justify;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #7c7474f1;
+    color:white;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
   .column {
     align-items: center;
     width: 50%;
