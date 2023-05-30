@@ -50,6 +50,7 @@ form{
   background-color:#7c7474f1 ;
   flex-direction: column;
   gap: 10px;
+  color: #ddd;
   padding: 30px;
   margin: 10px;
   border: 5px solid rgba(215, 215, 216, 0.425);

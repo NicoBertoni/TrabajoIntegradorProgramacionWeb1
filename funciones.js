@@ -26,7 +26,7 @@ function validar() {
  if(f_mensaje.value.trim() == "") {
   f_mensaje.classList.add("error");
   let p = document.createElement("p");
-  p.innerHTML = "Falta el mensaje";
+  p.innerHTML = "El mensaje esta vacio";
   lta_errores.appendChild(p);
   hubo_error = true;
  } else if(f_mensaje.value.length > 200) {
@@ -39,7 +39,7 @@ function validar() {
  if(!f_humano.checked) {
   f_humano.parentNode.classList.add("error");
   let p = document.createElement("p");
-  p.innerHTML = "Fuera robot";
+  p.innerHTML = "Por favor, indique que no es un robot";
   lta_errores.appendChild(p);
   hubo_error = true;
  }
@@ -47,7 +47,7 @@ function validar() {
  //if(!/^([a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+)?$/.test(f_email.value)){
   f_email.classList.add("error");
   let p = document.createElement("p");
-  p.innerHTML = "Email inválido";
+  p.innerHTML = "El mail no es valido";
   lta_errores.appendChild(p);
   hubo_error = true;
  }
