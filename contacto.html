@@ -1,25 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="stylesheet" href="style.css">
-    <meta charset="UTF-8">
-    <title>Cinema FLASHBACK - Contacto</title>
-</head>
-<body>
-    <div class="header">
-        <img src="imagenes\Otros\Logo.png" alt="Header">
-      </div>
 
-    <div class="topnav">
-        <a href="index.html">Inicio</a>
-        <a href="cartelera.html">Cartelera</a>
-        <a href="contacto.html">Contacto</a>
-        <a href="nosotros.html">Nosotros</a>
-      </div>
-      
-    <div class="footer">
-      <p>FLASHBACK Cinema 2023 Provincia de San Luis. Colon 1377</p>
-      <p>Seguinos en nuestras redes. Twitter: @FLASHcine - Facebook: FLASHBACK Cinema Ar</p>
+<head>
+  <script src="funciones.js"> </script>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>Cinema FLASHBACK - Contacto</title>
+</head>
+
+<body>
+  <div class="header">
+    <img src="imagenes\Otros\Logo.png" alt="Banner">
+  </div>
+
+  <div class="topnav">
+    <a href="index.html">Inicio</a>
+    <a href="cartelera.html">Cartelera</a>
+    <a href="contacto.html">Contacto</a>
+    <a href="nosotros.html">Nosotros</a>
+  </div>
+  <form onsubmit="return validar()" id="f_contacto">
+    <img src="imagenes\Otros\LogoCine.png" alt="Header">
+    <h1>¡Contanos de tu experiencia!</h1>
+    <label for="f_nombre">Nombre</label>
+    <input id="f_nombre" autofocus />
+    <label for="f_mensaje">Mensaje</label>
+    <textarea id="f_mensaje" rows="3"></textarea>
+    <label for="f_email">Email</label>
+    <input id="f_email" />
+    <label for="f_humano"><input id="f_humano" type="checkbox" value="1" /> Soy un humano</label>
+    <button type="submit">Enviar</button>
+    <div id="errores">
+    </div>
+  </form>
+
+  <div id="mensajes">
+  </div>
+  <div class="footer">
+    <p>FLASHBACK Cinema 2023 Provincia de San Luis. Colon 1377</p>
+    <p>Seguinos en nuestras redes. Twitter: @FLASHcine - Facebook: FLASHBACK Cinema Ar</p>
   </div>
 </body>
+
 </html>
